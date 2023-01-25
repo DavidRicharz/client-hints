@@ -16,7 +16,19 @@ This information is used by tracking tools like Adobe Analytics to derive some o
 
 Chromium browser will only support a reduced version of the the user agent [with upcoming version v110 lasting unti v113 for full migration](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This will potentially break parts of data collection.
 
-More about user agent reduction can be found [here](https://developer.chrome.com/docs/privacy-sandbox/user-agent/).
+The reduced format looks as follows:
+
+Before changes:
+
+`Mozilla/5.0 (<platform>; <oscpu>) AppleWebKit/537.36 (KHTML, like
+Gecko) Chrome/<majorVersion>.<minorVersion>; Safari/537.36`
+
+After changes:
+
+`Mozilla/5.0 (<unifiedPlatform>) AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/<majorVersion>.0.0.0 Safari/537.36`
+
+More about user agent reduction can be found [here](https://www.chromium.org/updates/ua-reduction/).
 
 ## Client Hints
 
