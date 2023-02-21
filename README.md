@@ -14,7 +14,7 @@ The user agent collects browser information that can potentially used for finger
 
 This information is used by tracking tools like Adobe Analytics to derive some of their standard variables, such as device type or browser version.
 
-Chromium browser will only support a reduced version of the the user agent [with upcoming version v110 lasting unti v113 for full migration](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This will potentially break parts of data collection.
+Chromium browser will only support a reduced version of the the user agent [with upcoming version v101 lasting unti v113 for full migration](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This will potentially break parts of data collection.
 
 The reduced format looks as follows:
 
@@ -130,7 +130,7 @@ navigator.userAgentData
 ## Support
 
 > Only Chromium browsers planing on reducing the user agent information. Firexof and Safari do not plan on reducing the user agent or implementing the client hints API.
-> Reduction starts on **Feburary 7th 2023** with [rollout of Chromium v110](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)
+> Reduction starts with [rollout of Chromium v101](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)
 
 Chromium browsers
 
